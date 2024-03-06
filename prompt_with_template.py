@@ -4,7 +4,7 @@ import gradio as gr
 # initialize the models
 openai = ChatOpenAI(
     model_name="gpt-3.5-turbo",
-    openai_api_key="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"
+    openai_api_key="sk"
 )
 def chatbot(user_input):
     # defining a template
